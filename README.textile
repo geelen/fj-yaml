@@ -1,0 +1,67 @@
+h1. fj-yaml
+
+Is a pretty uncomfortable mashup of "Functional Java":http://www.functionaljava.org/ and "jvyaml":https://jvyaml.dev.java.net/
+
+h2. usage
+
+For some yaml like this:
+
+<pre>
+---
+regions:
+- region_id: 1
+  formats:
+  - format_id: 1
+    weights:
+      H: 3
+      M: 2
+      L: 1
+    signs: [3, 101, 102, 103, 104]
+  - format_id: 2
+    weights:
+      H: 4
+      M: 2
+      L: 1
+    signs: [9, 202, 203, 204]
+- region_id: 2
+  formats:
+  - format_id: 1
+    weights:
+      H: 5
+      M: 3
+      L: 2
+    signs: [3, 9, 302, 303, 304, 305]
+</pre>
+
+You can do this java:
+
+<pre>
+public enum Weight {
+    L, M, H
+}  
+  
+public static final F<Object, Weight> WEIGHT = new F<Object, Weight>() {
+    public Weight f(final Object o) {
+        return Weight.valueOf((String) o);
+    }
+};
+  
+public SomeResult parse(final String s) {
+    final List<P2<Integer, List<P3<Integer, Map<Weight,Integer>, List<Integer>>>>> regions =
+        namedEntries(
+              p("regions", yamlToList(namedEntries(
+                      p("region_id", INT),
+                      p("formats", yamlToList(namedEntries(
+                              p("format_id", INT),
+                              p("weights", yamlToMap(WEIGHT, INT)),
+                              p("signs", yamlToList(INT))))
+                      )
+              )))
+        ).f(YAML.load(s))._1();
+    return new SomeResult(regions);
+}    
+</pre>
+
+So, nesting of P2s and P3s and java.util.List objects, all generically typed and guaranteed* to fail eagerly.
+
+*not a guarantee
