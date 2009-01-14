@@ -257,6 +257,15 @@
         <root url="file://$PROJECT_DIR$/lib/functionaljava/src" />
       </SOURCES>
     </library>
+    <library name="jvyaml">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/jvyaml/jvyaml-0.2.1/lib/jvyaml.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$PROJECT_DIR$/lib/jvyaml/jvyaml-0.2.1/src" />
+      </SOURCES>
+    </library>
   </component>
 </project>
 

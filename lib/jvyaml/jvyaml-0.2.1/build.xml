@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project basedir="." default="jar" name="JvYAML">
+  <description>
+    	JvYAML is a Java YAML 1.1 parser and emitter.
+  </description>
+  <!-- First try to load machine-specific properties. -->
+  <property file="build.properties"/>
+  
+  <!-- And then load the defaults. It seems backwards to set defaults AFTER 
+       setting local overrides, but that's how Ant works. -->
+  <property file="default.build.properties"/>
+  
+  <path id="build.classpath">
+    <fileset dir="${lib.dir}" includes="*.jar" excludes="jvyaml.jar"/>
+  </path>
+
+  <patternset id="java.src.pattern">
+    <include name="**/*.java"/>
+    <exclude name="test/**/*.java"/>
+  </patternset>
+
+  <target name="prepare" description="Creates the directories needed for building">
+    <xmlproperty file="build-config.xml" keepRoot="false" collapseAttributes="true"/>
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${build.dir}/test"/>
+    <mkdir dir="${classes.dir}"/>
+    <mkdir dir="${jvyaml.classes.dir}"/>
+  </target>
+  
+  <target name="compile" depends="prepare" description="Compile the source files for the project.">
+    <javac destdir="${jvyaml.classes.dir}" debug="true" source="${javac.version}" target="${javac.version}">
+      <classpath refid="build.classpath"/>
+      <src path="${src.dir}"/>
+      <patternset refid="java.src.pattern"/>
+    </javac>
+  </target>
+
+  <target name="compile-tests" depends="compile" description="Compile the test source files for the project.">
+    <javac destdir="${build.dir}/test" debug="true" source="${javac.version}" target="${javac.version}">
+      <classpath refid="build.classpath"/>
+      <classpath>
+        <pathelement location="${build.dir}/classes/jvyaml"/>
+      </classpath>
+      <src path="${src.dir}/test"/>
+    </javac>
+  </target>
+
+  <target name="test" depends="compile-tests" description="Runs all tests">
+    <junit haltonfailure="false">
+      <classpath>
+      	<pathelement location="${build.dir}/classes/jvyaml"/>
+      	<pathelement location="${build.dir}/test"/>
+      </classpath>
+      <formatter type="brief" usefile="false"/>
+      <batchtest>
+        <fileset dir="${src.dir}/test">
+          <include name="**/*Test.java"/>
+        </fileset>
+      </batchtest>
+    </junit>
+  </target>
+
+  <target name="jar" depends="test" description="Create the jvyaml.jar file">
+    <jar destfile="${lib.dir}/jvyaml.jar">
+      <fileset dir="${jvyaml.classes.dir}">
+        <include name="**/*.class"/>
+        <include name="**/*.properties"/>
+      </fileset>
+      <manifest>
+        <attribute name="Built-By" value="${user.name}"/>
+      </manifest>
+    </jar>
+  </target>
+	
+  <target name="dist-bin" depends="jar">
+    <tar destfile="${release.dir}/jvyaml-bin-${version.jvyaml}.tar.gz" compression="gzip">
+      <tarfileset dir="." prefix="jvyaml-${version.jvyaml}">
+        <include name="lib/**"/>
+        <include name="docs/**"/>
+        <include name="LICENSE"/>
+        <include name="README"/>
+        <include name="CREDITS"/>
+      </tarfileset>
+    </tar>
+  </target>
+  
+  <target name="dist-src" depends="jar">
+    <tar destfile="${release.dir}/jvyaml-src-${version.jvyaml}.tar.gz" compression="gzip">
+      <tarfileset dir="." prefix="jvyaml-${version.jvyaml}">
+        <include name="lib/**"/>
+        <include name="docs/**"/>
+        <include name="src/**"/>
+        <include name="build.xml"/>
+        <include name="build-config.xml"/>
+        <include name="LICENSE"/>
+        <include name="README"/>
+        <include name="CREDITS"/>
+        <include name="default.build.properties"/>
+      </tarfileset>
+    </tar>
+  </target>
+  
+  <target name="dist" depends="dist-bin,dist-src"/>
+
+  <target name="clean" depends="prepare" description="clean almost everything">
+    <delete dir="${build.dir}"/>
+    <delete file="${lib.dir}/jvyaml.jar" quiet="true"/>
+  </target>
+</project>
