@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project relativePaths="false" version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
   <component name="BuildJarProjectSettings">
     <option name="BUILD_JARS_ON_MAKE" value="false" />
   </component>
@@ -217,7 +220,7 @@
       <module fileurl="file://$PROJECT_DIR$/fj-yaml.iml" filepath="$PROJECT_DIR$/fj-yaml.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ResourceManagerContainer">
@@ -253,9 +256,7 @@
       <JAVADOC>
         <root url="file://$PROJECT_DIR$/lib/functionaljava/javadoc" />
       </JAVADOC>
-      <SOURCES>
-        <root url="file://$PROJECT_DIR$/lib/functionaljava/src" />
-      </SOURCES>
+      <SOURCES />
     </library>
     <library name="jvyaml">
       <CLASSES>
@@ -264,6 +265,26 @@
       <JAVADOC />
       <SOURCES>
         <root url="file://$PROJECT_DIR$/lib/jvyaml/jvyaml-0.2.1/src" />
+      </SOURCES>
+    </library>
+    <library name="instinct">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/instinct/instinct-0.1.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/lib/instinct/instinct-0.1.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES />
+    </library>
+    <library name="google-collections">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/google-collect-snapshot-20080820/google-collect-snapshot-20080820.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="file://$PROJECT_DIR$/lib/google-collect-snapshot-20080820/javadoc" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/lib/google-collect-snapshot-20080820/src-snapshot-20080820.zip!/" />
       </SOURCES>
     </library>
   </component>
