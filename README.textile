@@ -2,7 +2,7 @@ h1. fj-yaml
 
 Is a pretty uncomfortable mashup of "Functional Java":http://www.functionaljava.org/ and "jvyaml":https://jvyaml.dev.java.net/
 
-h2. usage
+h2. Usage
 
 For some yaml like this:
 

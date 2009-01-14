@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+        <head><title>class Arbitrary in fjs.test</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF8"></meta><meta content="scaladoc (version 2.7.2.final)" name="generator"></meta><link href="../../style.css" type="text/css" rel="stylesheet"></link><script type="text/javascript" src="../../script.js"></script>
+        </head>
+        <body onload="init()">
+        <div><p><em>Copyright Tony Morris 2008</em></p>This software is released under an open source BSD licence.</div><table summary="" class="navigation">
+        <tr>
+          <td class="navigation-links" valign="top">
+            <!-- <table><tr></tr></table> -->
+          </td>
+          <td align="right" valign="top" style="white-space:nowrap;" rowspan="2">
+            <div class="doctitle-larger">Functional Java 2.17</div>
+          </td>
+        </tr>
+        <tr><td></td></tr>
+      </table>
+        
+      <div class="entity">
+        <a href="../../fjs/test$package.html" target="_self">fjs.test</a>
+        <br></br>
+        <span class="entity">class  Arbitrary</span>
+      </div><hr></hr>
+      <div class="source">
+        [source: <a href="" class="fjs/test/Arbitrary"><code>fjs/test/Arbitrary.scala</code></a>]
+      </div><hr></hr>
+      <a name="Arbitrary"></a><dl>
+      <dt>
+        
+        <code>sealed abstract</code>
+        <code>class</code>
+        <em>Arbitrary</em>[<em>A</em>]
+      </dt>
+      <dd><code> extends </code><a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html" target="_self">AnyRef</a></dd>
+    </dl>
+      
+
+<table summary="" cellpadding="3" class="member">
+      <tr><td class="title" colspan="2">Value Summary</td></tr>
+      <tr>
+      <td class="modifiers" valign="top"> 
+        <code>abstract val</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#gen" target="_self">gen</a></em>
+         : <a href="../../fjs/test/Gen.html" target="_self">Gen</a>[<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>]
+        
+        
+      </td>
+    </tr>
+      </table>
+<table summary="" cellpadding="3" class="member">
+      <tr><td class="title" colspan="2">Method Summary</td></tr>
+      <tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3C*%3E%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29" target="_self">&lt;*&gt;</a></em>
+        [<em>B</em>](<em>a</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[(<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3C*%3E%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29#B" target="_self">B</a>]) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3C*%3E%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29#B" target="_self">B</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3E%28%28A%29%3D%3EB%29" target="_self">&gt;</a></em>
+        [<em>B</em>](<em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%28%28A%29%3D%3EB%29#B" target="_self">B</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%28%28A%29%3D%3EB%29#B" target="_self">B</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29" target="_self">&gt;&gt;=</a></em>
+        [<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F$</em>, <em>G</em>, <em>H</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#D" target="_self">D</a>], <em>ae</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#E" target="_self">E</a>], <em>af</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#F%24" target="_self">F$</a>], <em>ag</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#G" target="_self">G</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#D" target="_self">D</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#E" target="_self">E</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#F%24" target="_self">F$</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#G" target="_self">G</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#H" target="_self">H</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#H" target="_self">H</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29" target="_self">&gt;&gt;=</a></em>
+        [<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F$</em>, <em>G</em>, <em>H</em>, <em>I</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#D" target="_self">D</a>], <em>ae</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#E" target="_self">E</a>], <em>af</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#F%24" target="_self">F$</a>], <em>ag</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#G" target="_self">G</a>], <em>ah</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#H" target="_self">H</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#D" target="_self">D</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#E" target="_self">E</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#F%24" target="_self">F$</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#G" target="_self">G</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#H" target="_self">H</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#I" target="_self">I</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#I" target="_self">I</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29" target="_self">&gt;&gt;=</a></em>
+        [<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F$</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#D" target="_self">D</a>], <em>ae</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#E" target="_self">E</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#D" target="_self">D</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#E" target="_self">E</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#F%24" target="_self">F$</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#F%24" target="_self">F$</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29" target="_self">&gt;&gt;=</a></em>
+        [<em>B</em>](<em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29#B" target="_self">B</a>]) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29#B" target="_self">B</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29" target="_self">&gt;&gt;=</a></em>
+        [<em>B</em>, <em>C</em>, <em>D</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#C" target="_self">C</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#C" target="_self">C</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#D" target="_self">D</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#D" target="_self">D</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29" target="_self">&gt;&gt;=</a></em>
+        [<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F$</em>, <em>G</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#D" target="_self">D</a>], <em>ae</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#E" target="_self">E</a>], <em>af</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#F%24" target="_self">F$</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#D" target="_self">D</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#E" target="_self">E</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#F%24" target="_self">F$</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#G" target="_self">G</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#G" target="_self">G</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29" target="_self">&gt;&gt;=</a></em>
+        [<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#D" target="_self">D</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#D" target="_self">D</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#E" target="_self">E</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#E" target="_self">E</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29" target="_self">&gt;&gt;=</a></em>
+        [<em>B</em>, <em>C</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29#B" target="_self">B</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29#B" target="_self">B</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29#C" target="_self">C</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29#C" target="_self">C</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#apply%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29" target="_self">apply</a></em>
+        [<em>B</em>](<em>a</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[(<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#apply%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29#B" target="_self">B</a>]) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#apply%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29#B" target="_self">B</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#filter%28%28A%29%3D%3EBoolean%29" target="_self">filter</a></em>
+        (<em>p</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="http://www.scala-lang.org/docu/files/api/scala/Boolean.html" target="_self">Boolean</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#flatMap%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29" target="_self">flatMap</a></em>
+        [<em>B</em>](<em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#flatMap%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29#B" target="_self">B</a>]) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#flatMap%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29#B" target="_self">B</a>]
+        
+        
+      </td>
+    </tr>
+<tr>
+      <td class="modifiers" valign="top"> 
+        <code> def</code>
+      </td>
+      <td class="signature">
+        <em><a href="../../fjs/test/Arbitrary.html#map%28%28A%29%3D%3EB%29" target="_self">map</a></em>
+        [<em>B</em>](<em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#map%28%28A%29%3D%3EB%29#B" target="_self">B</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#map%28%28A%29%3D%3EB%29#B" target="_self">B</a>]
+        
+        
+      </td>
+    </tr>
+      </table><table summary="" cellpadding="3" class="inherited">
+        <tr><td class="title" colspan="2">
+          Methods inherited from <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html" target="_self">AnyRef</a>
+        </td></tr>
+        <tr><td class="signature" colspan="2">
+          <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#getClass%28%29" target="_self">getClass</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#hashCode%28%29" target="_self">hashCode</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#equals%28Any%29" target="_self">equals</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#clone%28%29" target="_self">clone</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#toString%28%29" target="_self">toString</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#notify%28%29" target="_self">notify</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#notifyAll%28%29" target="_self">notifyAll</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#wait%28Long%29" target="_self">wait</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#wait%28Long%2CInt%29" target="_self">wait</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#wait%28%29" target="_self">wait</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#finalize%28%29" target="_self">finalize</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#%3D%3D%28AnyRef%29" target="_self">==</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#%21%3D%28AnyRef%29" target="_self">!=</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#eq%28AnyRef%29" target="_self">eq</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#ne%28AnyRef%29" target="_self">ne</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/AnyRef.html#synchronized%28T0%29" target="_self">synchronized</a>
+        </td></tr>
+      </table><table summary="" cellpadding="3" class="inherited">
+        <tr><td class="title" colspan="2">
+          Methods inherited from <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html" target="_self">Any</a>
+        </td></tr>
+        <tr><td class="signature" colspan="2">
+          <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html#%3D%3D%28Any%29" target="_self">==</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html#%21%3D%28Any%29" target="_self">!=</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html#isInstanceOf" target="_self">isInstanceOf</a>, <a href="http://www.scala-lang.org/docu/files/api/scala/Any.html#asInstanceOf" target="_self">asInstanceOf</a>
+        </td></tr>
+      </table>
+
+
+      
+
+<table summary="" cellpadding="3" class="member-detail">
+          <tr><td class="title">Value Details</td></tr>
+        </table><div><a name="gen"></a><dl>
+      <dt>
+        
+        <code>abstract</code>
+        <code>val</code>
+        <em>gen</em> : <a href="../../fjs/test/Gen.html" target="_self">Gen</a>[<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr></div>
+<table summary="" cellpadding="3" class="member-detail">
+          <tr><td class="title">Method Details</td></tr>
+        </table><div><a name="%3E%28%28A%29%3D%3EB%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&gt;</em>[<em>B</em>](<em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%28%28A%29%3D%3EB%29#B" target="_self">B</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%28%28A%29%3D%3EB%29#B" target="_self">B</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="%3E%3E%3D%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&gt;&gt;=</em>[<em>B</em>](<em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29#B" target="_self">B</a>]) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29#B" target="_self">B</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="apply%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>apply</em>[<em>B</em>](<em>a</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[(<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#apply%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29#B" target="_self">B</a>]) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#apply%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29#B" target="_self">B</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&gt;&gt;=</em>[<em>B</em>, <em>C</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29#B" target="_self">B</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29#B" target="_self">B</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29#C" target="_self">C</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2C%28A%29%3D%3E%28B%29%3D%3EC%29#C" target="_self">C</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&gt;&gt;=</em>[<em>B</em>, <em>C</em>, <em>D</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#C" target="_self">C</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#C" target="_self">C</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#D" target="_self">D</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3ED%29#D" target="_self">D</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&gt;&gt;=</em>[<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#D" target="_self">D</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#D" target="_self">D</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#E" target="_self">E</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3EE%29#E" target="_self">E</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&gt;&gt;=</em>[<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F$</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#D" target="_self">D</a>], <em>ae</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#E" target="_self">E</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#D" target="_self">D</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#E" target="_self">E</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#F%24" target="_self">F$</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3EF%24%29#F%24" target="_self">F$</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&gt;&gt;=</em>[<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F$</em>, <em>G</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#D" target="_self">D</a>], <em>ae</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#E" target="_self">E</a>], <em>af</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#F%24" target="_self">F$</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#D" target="_self">D</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#E" target="_self">E</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#F%24" target="_self">F$</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#G" target="_self">G</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3EG%29#G" target="_self">G</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&gt;&gt;=</em>[<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F$</em>, <em>G</em>, <em>H</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#D" target="_self">D</a>], <em>ae</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#E" target="_self">E</a>], <em>af</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#F%24" target="_self">F$</a>], <em>ag</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#G" target="_self">G</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#D" target="_self">D</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#E" target="_self">E</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#F%24" target="_self">F$</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#G" target="_self">G</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#H" target="_self">H</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3EH%29#H" target="_self">H</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&gt;&gt;=</em>[<em>B</em>, <em>C</em>, <em>D</em>, <em>E</em>, <em>F$</em>, <em>G</em>, <em>H</em>, <em>I</em>](<em>ab</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#B" target="_self">B</a>], <em>ac</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#C" target="_self">C</a>], <em>ad</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#D" target="_self">D</a>], <em>ae</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#E" target="_self">E</a>], <em>af</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#F%24" target="_self">F$</a>], <em>ag</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#G" target="_self">G</a>], <em>ah</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#H" target="_self">H</a>], <em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#B" target="_self">B</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#C" target="_self">C</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#D" target="_self">D</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#E" target="_self">E</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#F%24" target="_self">F$</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#G" target="_self">G</a>) =&gt; (<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#H" target="_self">H</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#I" target="_self">I</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3E%3E%3D%28fjs.test.Arbitrary%5BB%5D%2Cfjs.test.Arbitrary%5BC%5D%2Cfjs.test.Arbitrary%5BD%5D%2Cfjs.test.Arbitrary%5BE%5D%2Cfjs.test.Arbitrary%5BF%24%5D%2Cfjs.test.Arbitrary%5BG%5D%2Cfjs.test.Arbitrary%5BH%5D%2C%28A%29%3D%3E%28B%29%3D%3E%28C%29%3D%3E%28D%29%3D%3E%28E%29%3D%3E%28F%24%29%3D%3E%28G%29%3D%3E%28H%29%3D%3EI%29#I" target="_self">I</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="flatMap%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>flatMap</em>[<em>B</em>](<em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#flatMap%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29#B" target="_self">B</a>]) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#flatMap%28%28A%29%3D%3Efjs.test.Arbitrary%5BB%5D%29#B" target="_self">B</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="map%28%28A%29%3D%3EB%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>map</em>[<em>B</em>](<em>f</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#map%28%28A%29%3D%3EB%29#B" target="_self">B</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#map%28%28A%29%3D%3EB%29#B" target="_self">B</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="filter%28%28A%29%3D%3EBoolean%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>filter</em>(<em>p</em> : (<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="http://www.scala-lang.org/docu/files/api/scala/Boolean.html" target="_self">Boolean</a>) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr>
+<a name="%3C*%3E%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29"></a><dl>
+      <dt>
+        
+        <code></code>
+        <code>def</code>
+        <em>&lt;*&gt;</em>[<em>B</em>](<em>a</em> : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[(<a href="../../fjs/test/Arbitrary.html#A" target="_self">A</a>) =&gt; <a href="../../fjs/test/Arbitrary.html#%3C*%3E%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29#B" target="_self">B</a>]) : <a href="../../fjs/test/Arbitrary.html" target="_self">Arbitrary</a>[<a href="../../fjs/test/Arbitrary.html#%3C*%3E%28fjs.test.Arbitrary%5B%28A%29%3D%3EB%5D%29#B" target="_self">B</a>]
+      </dt>
+      <dd></dd>
+    </dl><hr></hr></div>
+
+
+    <hr></hr>
+        <table summary="" class="navigation">
+        <tr>
+          <td class="navigation-links" valign="top">
+            <!-- <table><tr></tr></table> -->
+          </td>
+          <td align="right" valign="top" style="white-space:nowrap;" rowspan="2">
+            <div class="doctitle-larger">Functional Java 2.17</div>
+          </td>
+        </tr>
+        <tr><td></td></tr>
+      </table>
+      </body>
+      </html>
